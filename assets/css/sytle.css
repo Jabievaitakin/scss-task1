@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background: rgb(87, 53, 133);
+  background: linear-gradient(90deg, rgb(87, 53, 133) 0%, rgb(18, 12, 169) 67%, rgb(9, 95, 175) 100%);
+}
+body .registr {
+  width: 600px;
+  height: 700px;
+  border: 1px solid black;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+body .registr .title {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background: black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+body .registr .title h2 {
+  text-transform: uppercase;
+  color: white;
+}
+body .registr .boxs {
+  margin-top: 40px;
+}
+body .registr .boxs .register-input-box {
+  margin-top: 20px;
+  display: flex;
+}
+body .registr .boxs .register-input-box label {
+  display: block;
+  color: #bbb;
+  margin-top: 5px;
+  font-size: 12px;
+}
+body .registr .boxs .register-input-box input {
+  width: 100%;
+  border: none;
+  background-color: #eee;
+  padding: 12px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+body .registr .boxs .register-input-box select {
+  width: 100%;
+  border: none;
+  background-color: #eee;
+  padding: 12px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+body .registr .boxs .register-input-box .label-box {
+  width: 20%;
+}
+body .registr .boxs .register-input-box .label-box h5 {
+  margin-top: 12%;
+}
+body .registr .boxs .register-input-box .input-box {
+  width: 80%;
+}
+body .registr .boxs .label-box {
+  width: 20%;
+}
+body .registr .boxs .label-box h5 {
+  margin-top: 12%;
+}
+body .registr .boxs .name-box .input-box {
+  display: flex;
+}
+body .registr .boxs .name-box .input-box .input-item {
+  width: 50%;
+}
+body .registr .boxs .name-box .input-box .input-item:not(:last-child) {
+  padding-right: 20px;
+}
+body .registr .boxs .phone-box .input-box {
+  display: flex;
+}
+body .registr .boxs .phone-box .input-box .are-box {
+  width: 20%;
+  padding-right: 10px;
+}
+body .registr .boxs .phone-box .input-box .phone-number-box {
+  width: 80%;
+}
+body .registr .boxs .question-box {
+  margin-top: 20px;
+}
+body .registr .boxs .question-box .label-box {
+  width: 100%;
+}
+body .registr .boxs .question-box .input-box {
+  display: flex;
+  margin-top: 10px;
+}
+body .registr .boxs .question-box .input-box .radio-box:not(:last-child) {
+  padding-right: 15%;
+}
+body .registr .boxs .button-box {
+  margin-top: 40px;
+}
+body .registr .boxs .button-box button {
+  border: none;
+  background-color: crimson;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=sytle.css.map */
